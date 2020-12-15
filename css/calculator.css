@@ -1,0 +1,195 @@
+/* main portion  */
+body
+{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.main
+{
+    display: block;
+    margin:auto;
+    margin-top: 200px;
+    width: 500px;
+    height: 600px;
+    background-color:#B8B8B8;
+}
+
+.inputcol
+{
+    text-align: right;
+    font-size: 30px;
+}
+/* inner portion */
+.innermain
+{
+    display: block;
+    margin:auto;
+    position: relative;
+    top: 50px;
+    width: 400px;
+    height: 500px;
+    background-color:white;
+
+}
+
+/* row wise style */
+.onerow
+{
+    display: block;
+    /* margin:auto; */
+    position: relative;
+    width: 400px;
+    height: 90px;
+    background-color:black;
+
+}
+.tworow
+{
+    display: block;
+    /* margin:auto; */
+    position: relative;
+    width: 400px;
+    height: 84px;
+    /* background-color:red; */
+    display: flex;     /*  Use to remove space btn cells */
+}
+.threerow
+{
+    display: block;
+    /* margin:auto; */
+    position: relative;
+    width: 400px;
+    height: 82px;
+    background-color:#D3D3D3;
+    display: flex; 
+
+}
+.fourrow
+{
+    display: block;
+    /* margin:auto; */
+    position: relative;
+    width: 400px;
+    height: 82px;
+    background-color:#D3D3D3;
+    display: flex; 
+
+}
+.fiverow
+{
+    display: block;
+    /* margin:auto; */
+    position: relative;
+    width: 400px;
+    height: 82px;
+    background-color:#D3D3D3;
+    display: flex; 
+
+}
+.sixrow
+{
+    display: block;
+    /* margin:auto; */
+    position: relative;
+    width: 400px;
+    height: 82px;
+    background-color:#D3D3D3;
+    display: flex; 
+
+}
+
+/* column style of each row */
+.innerrow
+{
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 82px;
+    color: white;
+    border: 1px solid black;
+}
+
+/* operator column style */
+.innerop
+{
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 82px;
+    color: white;
+    border: 1px solid black;
+}
+
+/* zero btn style */
+.innerrowzero
+{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 82px;
+    color: white;
+    border: 1px solid black;
+}
+
+/* btn style */
+.btn
+{
+    display: inline-block;
+    position: relative;
+    width: 98px;
+    height: 82px;
+    font-size: 30px;
+    color: black;
+    border: 1px solid black;
+}
+
+/* operator button style */
+.btnop
+{
+    display: inline-block;
+    position: relative;
+    width: 98px;
+    height: 82px;
+    font-size: 30px;
+    color: black;
+    background-color: orange;
+    border: 1px solid black;
+   
+}
+.btntworow
+{
+    display: inline-block;
+    position: relative;
+    width: 98px;
+    height: 82px;
+    font-size: 30px;
+    color: black;
+    background-color: #888888;
+    border: 1px solid black;
+}
+
+/* zero button style */
+.btnzero
+{
+    display: inline-block;
+    position: relative;
+    width: 198px;
+    height: 82px;
+    font-size: 30px;
+    color: black;
+    border: 1px solid black;
+}
+.inputcol
+{
+   
+    position: relative;
+    width: 398px;
+    height: 90px;
+    background-color:black;
+    color: white;
+    font-size: 25px;
+    border: 1px solid black;
+    
+}
+

@@ -1,28 +1,76 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Home page</title>
-    <link rel="stylesheet" href="css/popup.css">
+  <link rel="stylesheet" href="css/popup.css">
 </head>
-<body>
-  
-  <button id="align" onclick="openForm()">Confirm</button>
 
+<body>
+
+  <button id="align" onclick="Showpopup()">Confirm</button>
+
+  <div id='main-content'>
+    <h2>HTML Table</h2>
+
+    <table>
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+      <tr>
+        <td>Ernst Handel</td>
+        <td>Roland Mendel</td>
+        <td>Austria</td>
+      </tr>
+      <tr>
+        <td>Island Trading</td>
+        <td>Helen Bennett</td>
+        <td>UK</td>
+      </tr>
+      <tr>
+        <td>Laughing Bacchus Winecellars</td>
+        <td>Yoshi Tannamuri</td>
+        <td>Canada</td>
+      </tr>
+      <tr>
+        <td>Magazzini Alimentari Riuniti</td>
+        <td>Giovanni Rovelli</td>
+        <td>Italy</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Popup form started -->
   <div class="form-popup" id="myForm">
     <form class="form-container">
       <div class="content">
         <div id="close">+</div>
-          <h1>CONFIRM</h1>
-          <label>Are  you  18+ ?</label>
-          <label class="label2">  Choose one..</label>
+        <h1>CONFIRM</h1>
+        <label>Are you 18+ ?</label>
+        <label class="label2"> Choose one..</label>
       </div>
       <div class="btnarea">
-         <button type="button" class="btn" onclick="yespress()">YES</button>
-         <button type="button" class="btn" onclick="closeForm()">NO</button>
-    </div>
+        <button type="button" class="btn" id="yesbtn" onclick="Whensayyes()">YES</button>
+        <button type="button" class="btn" onclick="Whensayno()">NO</button>
+      </div>
     </form>
   </div>
+  <!-- End of popup form -->
 
-<script src="js/popup.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script src="js/popup.js"></script>
 </body>
+
 </html>

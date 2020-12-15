@@ -1,0 +1,32 @@
+form
+{
+    display: block;
+    margin:auto;
+    margin-top: 200px;
+    width: 400px;
+    height: 200px;
+    background-color:#B8B8B8;
+    text-align: center;
+    border-radius: 10%;
+}
+input[type=text]
+{
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+input[type=button]
+{
+    background-color: black;
+    color: white;
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+}
+h1{
+    padding-top:20px ;
+}
