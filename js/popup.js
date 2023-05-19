@@ -18,12 +18,11 @@ function getCookie(cname) {
 // Check cookie present or not
 function checkCookie() {
   //debugger
-    var user = getCookie("yesbtn");
-   if (!user) {
+  var user = getCookie("yesbtn");
+  if (!user) {
     Showpopup();
   }
-  else
-  {
+  else {
     document.getElementById("main-content").style.display = "block";
     document.getElementById("myForm").style.display = "none";
   }
@@ -35,7 +34,7 @@ $(document).ready(function () {
 
 // Popup shows 
 function Showpopup() {
-  
+
   document.getElementById("myForm").style.display = "block";
 
 }
@@ -50,7 +49,7 @@ function setCookie(cname, cvalue, exdays) {
 
 //When yes button press
 function Whensayyes() {
- // debugger;
+  // debugger;
   document.getElementById("main-content").style.display = "block";
   document.getElementById("myForm").style.display = "none";
   setCookie("yesbtn", true, 30);
@@ -64,9 +63,7 @@ function Whensayno() {
   document.getElementById("align").style.display = "none";
 }
 
-  document.getElementById('close').addEventListener("click", function () {
+document.getElementById('close').addEventListener("click", function () {
   document.getElementById('myForm').style.display = "none";
   document.getElementById("align").style.display = "block";
-
-
 });
